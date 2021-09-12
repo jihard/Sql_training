@@ -73,7 +73,6 @@ ON ${MOVIES} (imdb_id);`;
 const CREATE_UNIQUE_INDEX_KEYWORDS_KEYWORD = `CREATE UNIQUE INDEX keywords_keyword_unq_idx
 ON ${KEYWORDS} (keyword);`;
 
-
 const CREATE_UNIQUE_INDEX_GENRES_GENRE = `CREATE UNIQUE INDEX genres_genre_unq_idx
 ON ${GENRES} (genre);`;
 
